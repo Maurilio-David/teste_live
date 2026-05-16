@@ -29,14 +29,14 @@ O app permite:
 
 ## Vídeo
 
-https://github.com/user-attachments/assets/seu-video
+https://github.com/Maurilio-David/teste_live/blob/main/demo.mov
 
 ---
 
 ## Screenshots
 
-<img src="assets/screenshot_1.png" width="250"/>
+<img src="screenshot_1.png" width="250"/>
 
-<img src="assets/screenshot_2.png" width="250"/>
+<img src="screenshot_2.png" width="250"/>
 
-<img src="assets/screenshot_3.png" width="250"/>
+<img src="screenshot_3.png" width="250"/>

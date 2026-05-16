@@ -7,6 +7,12 @@ class PageErrorWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text(message));
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.error, size: 100),
+        Text(message, style: TextStyle(fontSize: 24)),
+      ],
+    );
   }
 }

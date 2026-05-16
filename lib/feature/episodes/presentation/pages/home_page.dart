@@ -4,6 +4,8 @@ import 'package:go_router/go_router.dart';
 import 'package:teste_live/feature/episodes/presentation/bloc/episode_cubit.dart';
 import 'package:teste_live/feature/episodes/presentation/bloc/episode_state.dart';
 import 'package:teste_live/feature/episodes/presentation/pages/widgets/episode_success_widget.dart';
+import 'package:teste_live/feature/episodes/presentation/pages/widgets/error_page_widget.dart';
+import 'package:teste_live/feature/episodes/presentation/pages/widgets/loading_page_widget.dart';
 import 'package:teste_live/feature/episodes/presentation/pages/widgets/search_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -49,11 +51,11 @@ class _HomePageState extends State<HomePage> {
               child: BlocBuilder<EpisodeCubit, EpisodeState>(
                 builder: (_, state) {
                   if (state is EpisodeLoading) {
-                    return const Center(child: CircularProgressIndicator());
+                    return PageLoadingWidget();
                   }
 
                   if (state is EpisodeError) {
-                    return Center(child: Text(state.message));
+                    return PageErrorWidget(message: state.message);
                   }
 
                   if (state is EpisodeSuccess) {

@@ -27,12 +27,6 @@ O app permite:
 
 # Evidências da aplicação
 
-## Vídeo
-
-https://github.com/Maurilio-David/teste_live/blob/main/demo.mov
-
----
-
 ## Screenshots
 
 <img src="screenshot_1.png" width="250"/>

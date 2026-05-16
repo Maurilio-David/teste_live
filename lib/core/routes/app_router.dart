@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:teste_live/core/di/injetor_container.dart';
-import 'package:teste_live/feature/home/presentation/bloc/episode_cubit.dart';
-import 'package:teste_live/feature/home/presentation/bloc/history_cubit.dart';
-import 'package:teste_live/feature/home/presentation/pages/episode_page.dart';
-import 'package:teste_live/feature/home/presentation/pages/history_page.dart';
-import 'package:teste_live/feature/home/presentation/pages/home_page.dart';
+import 'package:teste_live/feature/episodes/presentation/bloc/episode_cubit.dart';
+import 'package:teste_live/feature/episodes/presentation/bloc/history_cubit.dart';
+import 'package:teste_live/feature/episodes/presentation/pages/episode_page.dart';
+import 'package:teste_live/feature/episodes/presentation/pages/history_page.dart';
+import 'package:teste_live/feature/episodes/presentation/pages/home_page.dart';
 
 final router = GoRouter(
   routes: [

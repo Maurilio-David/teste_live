@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:teste_live/core/di/injetor_container.dart';
-import 'package:teste_live/feature/presentation/bloc/home_bloc.dart';
+import 'package:teste_live/feature/home/presentation/bloc/home_bloc.dart';
 
 import 'core/routes/app_router.dart';
 

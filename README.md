@@ -2,23 +2,41 @@
 
 Um projeto desenvolvido com Flutter utilizando:
 
-- Arquitetura Limpa
-- Persitência em banco local
+- Clean Architecture
+- Persistência em banco local
 - Bloc/Cubit
-- Get.it
+- GetIt
 - GoRouter
 - Sqflite
-- Skeleton
+- Skeleton Loading
 - Testes unitários
 
-O app permite, buscar episódios através do endpoint https://rickandmortyapi.com/api/episode/{id}, e apresenta uma lista de personagens que participaram do episódio através do endpoint https://rickandmortyapi.com/api/character/{id}.
-Persistir os dados localmente com SQLite e consultar histórico offline.
+O app permite:
 
-## Segue algumas evidências de funcionamento da aplicação
-<video controls src="demo.mov" title="Title"></video>
+- buscar episódios através do endpoint:
+  https://rickandmortyapi.com/api/episode/{id}
 
-![alt text](<screenshot_1.png>) ![alt text](<Cscreenshot_2.png>) ![alt text](<screenshot_3.png>)
+- apresentar uma lista de personagens do episódio através do endpoint:
+  https://rickandmortyapi.com/api/character/{id}
 
+- persistir os dados localmente com SQLite
 
+- consultar histórico offline
 
+---
 
+# Evidências da aplicação
+
+## Vídeo
+
+https://github.com/user-attachments/assets/seu-video
+
+---
+
+## Screenshots
+
+<img src="assets/screenshot_1.png" width="250"/>
+
+<img src="assets/screenshot_2.png" width="250"/>
+
+<img src="assets/screenshot_3.png" width="250"/>

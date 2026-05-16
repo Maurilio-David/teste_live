@@ -4,4 +4,5 @@ abstract class EpisodesLocalDatasource {
   Future<void> saveEpisode(EpisodeModel episode);
 
   Future<EpisodeModel?> getEpisode(int id);
+  Future<List<EpisodeModel>> getEpisodesHistory();
 }

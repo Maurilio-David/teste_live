@@ -3,7 +3,7 @@ import 'package:teste_live/core/result/result.dart';
 import 'package:teste_live/feature/home/data/datasource/episodes_local_datasource.dart';
 import 'package:teste_live/feature/home/data/datasource/episodes_remote_datasource.dart';
 import 'package:teste_live/feature/home/domain/entities/episode_entity.dart';
-import 'package:teste_live/feature/home/domain/entities/repositories/episodes_repository.dart';
+import 'package:teste_live/feature/home/domain/repositories/episodes_repository.dart';
 
 class EpisodesRepositoryImpl implements EpisodesRepository {
   final EpisodesRemoteDatasource remoteDatasource;
@@ -31,5 +31,10 @@ class EpisodesRepositoryImpl implements EpisodesRepository {
 
       return Error(Failure('Erro ao buscar episódio'));
     }
+  }
+
+  @override
+  Future<List<EpisodeEntity>> getEpisodesHistory() async {
+    return localDatasource.getEpisodesHistory();
   }
 }

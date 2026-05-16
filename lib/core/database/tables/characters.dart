@@ -1,8 +1,15 @@
-const String characterTableName = "character";
+const String characterTableName = "characters";
+
 const String characterTableId = "id";
+const String characterTableEpisodeId = "episode_id";
+const String characterTableNameColumn = "name";
 const String characterTableImage = "image";
 
-const String createHabitsTable = '''CREATE TABLE $characterTableName(
-          $characterTableId TEXT PRIMARY KEY,
-          $characterTableImage TEXT NOT NULL,
-        )''';
+const String createCharacterTable = '''
+CREATE TABLE $characterTableName(
+  $characterTableId INTEGER PRIMARY KEY,
+  $characterTableEpisodeId INTEGER NOT NULL,
+  $characterTableNameColumn TEXT NOT NULL,
+  $characterTableImage TEXT NOT NULL
+)
+''';

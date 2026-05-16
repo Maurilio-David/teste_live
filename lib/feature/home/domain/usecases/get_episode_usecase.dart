@@ -1,7 +1,7 @@
 import 'package:teste_live/core/result/failure.dart';
 import 'package:teste_live/core/result/result.dart';
 import 'package:teste_live/feature/home/domain/entities/episode_entity.dart';
-import 'package:teste_live/feature/home/domain/entities/repositories/episodes_repository.dart';
+import 'package:teste_live/feature/home/domain/repositories/episodes_repository.dart';
 
 class GetEpisodeUsecase {
   final EpisodesRepository repository;

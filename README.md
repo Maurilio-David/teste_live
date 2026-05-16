@@ -1,16 +1,24 @@
-# teste_live
+# Teste ZRP
 
-A new Flutter project.
+Um projeto desenvolvido com Flutter utilizando:
 
-## Getting Started
+- Arquitetura Limpa
+- Persitência em banco local
+- Bloc/Cubit
+- Get.it
+- GoRouter
+- Sqflite
+- Skeleton
+- Testes unitários
 
-This project is a starting point for a Flutter application.
+O app permite, buscar episódios através do endpoint https://rickandmortyapi.com/api/episode/{id}, e apresenta uma lista de personagens que participaram do episódio através do endpoint https://rickandmortyapi.com/api/character/{id}.
+Persistir os dados localmente com SQLite e consultar histórico offline.
 
-A few resources to get you started if this is your first Flutter project:
+## Segue algumas evidências de funcionamento da aplicação
+<video controls src="Gravação de Tela 2026-05-16 às 13.52.32.mov" title="Title"></video>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![alt text](<Captura de Tela 2026-05-16 às 13.52.15.png>) ![alt text](<Captura de Tela 2026-05-16 às 13.52.06.png>) ![alt text](<Captura de Tela 2026-05-16 às 13.51.52.png>)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
